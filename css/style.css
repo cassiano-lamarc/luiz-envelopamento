@@ -49,3 +49,18 @@ footer{background:#060522}
 .contact-arrow{width:19px;height:19px}
 
 @media(min-width:800px){.quick-contact{padding:64px 0}.quick-contact-inner{grid-template-columns:1fr minmax(380px,.85fr);align-items:center;gap:7vw}}
+
+.testimonials{background:#fff}
+.testimonials-grid{display:grid;gap:38px}
+.testimonials-heading h2{max-width:650px;margin-bottom:22px}
+.testimonials-heading>p:last-child{max-width:570px;color:var(--muted)}
+.testimonial-waiting{position:relative;padding:34px;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);overflow:hidden}
+.testimonial-waiting>svg{width:54px;height:54px;margin-bottom:28px;color:var(--accent);stroke-width:1.3}
+.testimonial-waiting blockquote{margin:0 0 18px;font-size:clamp(23px,3vw,34px);font-weight:530;line-height:1.25;letter-spacing:-.035em}
+.testimonial-waiting>p{max-width:550px;color:var(--muted)}
+.testimonial-waiting:after{content:"";position:absolute;right:-50px;bottom:-70px;width:180px;height:180px;border:38px solid rgba(220,8,73,.08);border-radius:50%;pointer-events:none}
+
+@media(min-width:900px){.testimonials-grid{grid-template-columns:.8fr 1.2fr;align-items:center;gap:8vw}.testimonial-waiting{padding:50px}}
+
+.copyright a{color:#d7d3e5;border-bottom:1px solid rgba(215,211,229,.45);transition:color .2s,border-color .2s}
+.copyright a:hover{color:#ff3d76;border-color:#ff3d76}
