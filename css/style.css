@@ -64,3 +64,18 @@ footer{background:#060522}
 
 .copyright a{color:#d7d3e5;border-bottom:1px solid rgba(215,211,229,.45);transition:color .2s,border-color .2s}
 .copyright a:hover{color:#ff3d76;border-color:#ff3d76}
+
+/* Reforços de reconhecimento da marca */
+.benefit-card{overflow:hidden}
+.benefit-card:after{content:"LE";position:absolute;right:-12px;bottom:-35px;color:rgba(9,7,47,.035);font-size:118px;font-weight:850;line-height:1;letter-spacing:-.12em;pointer-events:none}
+.gallery-signature{position:absolute;z-index:2;left:20px;top:18px;padding:5px 9px;border-left:2px solid var(--accent);background:rgba(9,7,47,.62);color:#fff;font-size:9px;font-weight:650;letter-spacing:.08em;text-transform:uppercase;backdrop-filter:blur(5px)}
+.hospitality-copy{position:relative}
+.hospitality-copy:before{content:"";display:block;width:76px;height:5px;margin-bottom:24px;border-radius:99px;background:var(--accent);transform:skewX(-28deg)}
+.brand-signature{display:flex;align-items:baseline;gap:9px;margin:25px 0;color:var(--ink)}
+.brand-signature b{font-size:14px;letter-spacing:-.02em}
+.brand-signature small{color:var(--accent);font-size:9px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.testimonials{position:relative;overflow:hidden}
+.testimonials:before{content:"LE";position:absolute;right:-30px;top:50%;transform:translateY(-50%);color:rgba(9,7,47,.025);font-size:clamp(180px,28vw,430px);font-weight:850;line-height:1;letter-spacing:-.13em;pointer-events:none}
+.testimonials-grid{position:relative;z-index:1}
+.final-brand{width:145px;height:68px;margin:0 auto 30px;border-radius:9px;object-fit:cover;box-shadow:0 12px 32px rgba(0,0,0,.25)}
+.service-area:after{content:"LUIZ ENVELOPAMENTO";display:block;margin:45px auto -50px;width:min(1180px,calc(100% - 40px));padding-top:18px;border-top:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.35);font-size:9px;font-weight:700;letter-spacing:.24em;text-align:right}
